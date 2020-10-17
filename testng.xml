@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="1">
+  <test name="Test - Chrome">
+   <parameter name="browser"  value="chrome"/>
+    <classes>
+      <class name="tests.TestScenarioOne"/>
+      <class name="tests.SystemInfoTest"/>
+      <class name="tests.SystemInfoTestOneBrowser" />
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test - Firefox">
+    <parameter name="browser"  value="firefox"/>
+    <classes>
+      <class name="tests.TestScenarioOne"/>
+      <class name="tests.SystemInfoTest"/>
+      <class name="tests.SystemInfoTestOneBrowser" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 147.473 s <<< FAILURE! - in TestSuite
+tests.TestScenarioOne.Three  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.TestScenarioOne.Three(TestScenarioOne.java:48)
+
+tests.TestScenarioOne.Three  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.TestScenarioOne.Three(TestScenarioOne.java:48)
+
+tests.TestScenarioOne.testCaseTwo  Time elapsed: 3.509 s  <<< FAILURE!
+java.lang.AssertionError: expected [2] but found [1]
+	at tests.TestScenarioOne.testCaseTwo(TestScenarioOne.java:44)
+
