@@ -49,8 +49,7 @@ public class Utility {
 		String file = tc.getScreenshotAs(OutputType.BASE64);
 		//File fy = new File("image_"+getDate()+"_.jpg");
 		//FileHandler.copy(file, fy );
-		String st= "<img src='data:image/jpg;base64" + file
-        + "' height='800' width='600' /></a></td>";
+		String st= "<img src='data:image/jpg;base64" + file + "' height='600' width='800' />";
 		
 		Reporter.log(st);
 	}
